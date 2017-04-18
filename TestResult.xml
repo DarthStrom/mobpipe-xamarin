@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="SampleAppTests/bin/Debug/SampleAppTests.dll" total="2" failures="0" not-run="0" date="2017-04-18" time="14:11:42">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.42000" os-version="Unix 16.5.0.0" platform="Unix" cwd="/Users/jason/projects/SampleApp" machine-name="Duffys-MacBook-Pro.local" user="jason" user-domain="Duffys-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="SampleAppTests/bin/Debug/SampleAppTests.dll" success="True" time="0.029" asserts="0">
+    <results>
+      <test-suite name="SampleAppTests" success="True" time="0.026" asserts="0">
+        <results>
+          <test-suite name="Test" success="True" time="0.019" asserts="0">
+            <results>
+              <test-case name="SampleAppTests.Test.TestAdd" executed="True" success="True" time="0.007" asserts="1" />
+              <test-case name="SampleAppTests.Test.TestFail" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
