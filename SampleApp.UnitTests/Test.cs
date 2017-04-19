@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
-using SampleApp;
 
-namespace SampleAppTests
+namespace SampleApp.UnitTests
 {
 	[TestFixture]
 	public class Test
@@ -17,7 +16,7 @@ namespace SampleAppTests
 		[Test]
 		public void TestAdd()
 		{
-			Assert.AreEqual(subject.Add(1, 2), 3);
+			Assert.AreEqual(3, subject.Add(1, 2));
 		}
 
 		[Test]
