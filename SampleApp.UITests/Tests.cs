@@ -14,13 +14,13 @@ namespace SampleApp.UITests
 			this.platform = platform;
 		}
 
-		[SetUp]
+		[SetUp()]
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
 		}
 
-		[Test]
+		[Test()]
 		public void TappingTheButton()
 		{
 			// uncomment to launch the repl
@@ -47,13 +47,13 @@ namespace SampleApp.UITests
 			this.platform = platform;
 		}
 
-		[SetUp]
+		[SetUp()]
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
 		}
 
-		[Test]
+		[Test()]
 		public void TappingTheButton()
 		{
 			// uncomment to launch the repl

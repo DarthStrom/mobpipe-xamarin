@@ -1,4 +1,4 @@
 #!/bin/bash
 
 xbuild SampleApp.UnitTests/SampleApp.UnitTests.csproj
-nunit-console SampleApp.UnitTests/bin/Debug/SampleApp.UnitTests.dll
+nunit-console -xml:test-results/UnitTestResult.xml SampleApp.UnitTests/bin/Debug/SampleApp.UnitTests.dll
