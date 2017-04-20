@@ -37,6 +37,10 @@ else
 fi
 close_test_text
 
+open_test_text "Install Java"
+brew cask install java
+close_test_text
+
 open_test_text "Install Android Studio"
 brew cask install android-studio
 close_test_text
