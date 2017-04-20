@@ -41,10 +41,6 @@ open_test_text "Install Android Studio"
 brew cask install android-studio
 close_test_text
 
-open_test_text "Install Android SDK"
-brew cask install android-sdk
-close_test_text
-
 open_test_text "Install Xamarin Studio"
 brew cask install xamarin-studio
 close_test_text
@@ -64,7 +60,7 @@ close_test_text
 open_test_text "Setting ANDROID_HOME"
 if [[ -z "${ANDROID_HOME}" ]]; then
     printf "\n# added by xamarin bootstrap-project.sh\n" >> ~/.bashrc
-    printf "export ANDROID_HOME='/usr/local/share/android-sdk'" >> ~/.bashrc
+    printf "export ANDROID_HOME='~/Library/Android/sdk'" >> ~/.bashrc
     source ~/.bashrc
 fi
 close_test_text
