@@ -64,7 +64,7 @@ close_test_text
 open_test_text "Setting ANDROID_HOME"
 if [[ -z "${ANDROID_HOME}" ]]; then
     printf "\n# added by xamarin bootstrap-project.sh\n" >> ~/.bashrc
-    printf "export ANDROID_HOME='~/Library/Android/sdk'" >> ~/.bashrc
+    printf "export ANDROID_HOME='~/Library/Android/sdk/'" >> ~/.bashrc
     source ~/.bashrc
 fi
 close_test_text
