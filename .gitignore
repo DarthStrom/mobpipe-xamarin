@@ -27,7 +27,6 @@ autom4te.cache/
 *.user
 *.tar.gz
 tarballs/
-test-results/
 Thumbs.db
 
 # Mac bundle stuff
